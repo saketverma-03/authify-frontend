@@ -327,16 +327,16 @@ const RoleCard = ({
           </Label>
         </HoverCardTrigger>
         <HoverCardContent hidden={role.enabled}>
-          Only roles below the Authify roles in your discord Channel are
-          available to select, please move Authify above the roles which you
+          Only roles below the Clanflare roles in your discord Channel are
+          available to select, please move Clanflare above the roles which you
           want to select
           <ExampleDialog
             className="gap-4 border-yellow-800"
             title="Click Here to learn more about this"
           >
             <span className="flex border-l-2 border-yellow-500  pl-2 italic">
-              Only roles below the Authify roles in your discord Channel are
-              available to select, please move Authify above the roles which you
+              Only roles below the Clanflare roles in your discord Channel are
+              available to select, please move Clanflare above the roles which you
               want to select,
               <br />
               <br />

@@ -51,7 +51,7 @@ export default function FormAddService() {
                       <Button
                         onClick={() => {
                           navigator.clipboard.writeText(
-                            "authify@eastern-braid-380722.iam.gserviceaccount.com",
+                            "clanflare@clanflare.iam.gserviceaccount.com",
                           );
                           toast({
                             title: "copied to clipboard",
@@ -91,12 +91,12 @@ export default function FormAddService() {
 
             <div className="mb-8 flex items-center rounded-lg border bg-card text-card-foreground shadow-sm">
               <span className="flex-1 pl-2">
-                authify@eastern-braid-380722.iam.gserviceaccount.com
+                clanflare@clanflare.iam.gserviceaccount.com
               </span>
               <Button
                 onClick={() => {
                   navigator.clipboard.writeText(
-                    "authify@eastern-braid-380722.iam.gserviceaccount.com",
+                    "clanflare@clanflare.iam.gserviceaccount.com",
                   );
                   toast({
                     title: "copied to clipboard",

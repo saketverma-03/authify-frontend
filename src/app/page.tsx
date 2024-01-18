@@ -37,7 +37,7 @@ export default function Home() {
         <nav className="flex w-full max-w-7xl items-center px-4 py-3">
           <Link className="flex items-center gap-3 font-bold" href="#">
             {/* <Image src={logo} className="h-14 w-14" alt="authify" /> */}
-            Authopi
+            Calnflare
           </Link>
 
           <ul className="ml-auto flex items-center space-x-2 ">
@@ -76,7 +76,7 @@ export default function Home() {
               Discord Community
             </h1>
             <p className="my-14 max-w-lg text-center text-xl font-bold text-slate-400">
-              Authify, our Ultimate Solution for User Management and
+              Clanflare, our Ultimate Solution for User Management and
               Authentication on Discord
             </p>
           </div>

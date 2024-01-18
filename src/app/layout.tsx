@@ -12,9 +12,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: "Authify",
+  title: "Clanflare",
   description:
-    "Streamline, Secure, and ScaleYour Discord Community,with Authify",
+    "Streamline, Secure, and ScaleYour Discord Community,with Clanflare",
 };
 
 function getTheme() {
@@ -41,7 +41,7 @@ export default function RootLayout({
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
-            // disableTransitionOnChange
+          // disableTransitionOnChange
           >
             {children}
           </ThemeProvider>
