@@ -46,7 +46,7 @@ export default function FormAddService() {
                     </span>
                     <div className="mt-2 flex items-center rounded-lg border bg-card font-light text-card-foreground shadow-sm">
                       <span className="flex-1 pl-2">
-                        authify@eastern-braid-380722.iam.gserviceaccount.com
+                        clanflare@clanflare.iam.gserviceaccount.com
                       </span>
                       <Button
                         onClick={() => {
