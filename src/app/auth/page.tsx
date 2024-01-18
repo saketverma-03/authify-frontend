@@ -33,7 +33,7 @@ export default function Profile() {
       router.push("/dashboard");
     }
   }, [token]);
-  return <div>
-    <Loader2 className="absolute bottom-1/2 right-1/2 animate-spin translate-x-1/2 translate-y-1/2" />
+  return <div className="h-screen w-screen grid place-items-center">
+    <Loader2 className="absolute  animate-spin " />
   </div>;
 }
