@@ -11,7 +11,7 @@ export default function Profile() {
 
   const getUrl = async () => {
     const res = await axios.get(
-      `${process.env.NEXT_PUBLIC_BASE_API_URL}/oauth-link`,
+      `${process.env.NEXT_PUBLIC_BASE_API_URL}oauth-link`,
       {
         headers: {
           "ngrok-skip-browser-warning": true,
