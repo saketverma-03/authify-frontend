@@ -129,7 +129,7 @@ export default function Test() {
 
   return (
     <>
-      <div>
+      <div className="my-auto">
         <Link
           href={"./select-sheet?step=1"}
           className="self-start justify-self-start"
