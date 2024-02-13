@@ -22,9 +22,9 @@ export default function Page() {
           <div className="col-span-full mt-4 ">Premium Service</div>
           <Card
             imgSrc={tagmangoicon}
-            href={"/add-services/add-bot-for-tm"}
+            href={"/add-services/add-bot-for-tm/select-roles"}
             title="Tagmango"
-            discription="lorem ipsum do od"
+            discription="Connect With Tag Manog"
           />
         </div>
       </div>
