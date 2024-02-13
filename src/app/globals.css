@@ -66,7 +66,6 @@
 
 @layer base {
   :root {
-
     --background: 240 4.8% 95.9%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -74,7 +73,6 @@
     --popover: 0 0% 100%;
     --primary: 263.4 70% 50.4%;
     --primary-foreground: 210 20% 98%;
-    --primary-foreground: 355.7 100% 97.3%;
     --secondary: 0 0% 100%;
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
@@ -98,7 +96,7 @@
     --card-foreground: 0 0% 95%;
     --popover: 0 0% 9%;
     --popover-foreground: 0 0% 95%;
-    --primary: 239, 84%, 67%;
+    --primary: 251 52% 36%;
     --primary-foreground: 210 20% 98%;
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
@@ -137,10 +135,12 @@
   content: "";
   @apply rounded-full;
   --var-angle: 90deg;
-  background: linear-gradient(var(--var-angle),
-      rgba(131, 58, 180, 1) 0%,
-      rgba(253, 29, 29, 1) 50%,
-      rgba(252, 176, 69, 1) 100%);
+  background: linear-gradient(
+    var(--var-angle),
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
   inset: -0.2rem;
   z-index: -5;
   position: absolute;
@@ -238,13 +238,11 @@
   }
 }
 
+.main-image-window-controls > li {
+  @apply my-1 ml-1 rounded-full;
 
-
-.main-image-window-controls>li {
-  @apply rounded-full my-1 ml-1;
-
-  height: .6rem;
-  width: .6rem;
+  height: 0.6rem;
+  width: 0.6rem;
   /* background-color: azure; */
 }
 
@@ -252,17 +250,15 @@
   position: relative;
 }
 
-
 .main-image::before {
   content: "";
   @apply bg-indigo-950;
-  inset: -.5rem;
+  inset: -0.5rem;
   filter: blur(100px);
   position: absolute;
   transition: all;
   z-index: -5;
 }
-
 
 /* para-underline {
 
