@@ -43,19 +43,21 @@ export default function DashBoard() {
             ) : (
               <>
                 {// @ts-ignore
-                  query.data?.map((item) => (
-                    <Card
-                      key={item._id}
-                      data={item}
-                      varient={item.isCustom ? "custom" : "default"}
-                    />
-                  ))}
+                query.data?.map((item) => (
+                  <Card
+                    key={item._id}
+                    data={item}
+                    varient={item.isCustom ? "custom" : "default"}
+                  />
+                ))}
                 <Link
-                  className="cols-span-1 flex h-full w-full flex-col items-center justify-center gap-2 rounded-md border bg-gradient-to-r from-purple-600 to-purple-800 py-6 text-white hover:scale-105 active:scale-100"
+                  className="cols-span-1 flex h-full w-full flex-col items-center justify-center gap-2 rounded-md border border-dashed bg-card py-6  hover:bg-primary/10 dark:hover:bg-purple-950/10 "
                   href={"/add-services"}
+                  title="Add new service"
                 >
-                  <Plus className="mr-2 text-white" />
-                  <span className="block text-white">Add new Service</span>
+                  <div className="rounded-full border  p-4 dark:bg-black/20">
+                    <Plus className="opacity-60" />
+                  </div>
                 </Link>
               </>
             )}
